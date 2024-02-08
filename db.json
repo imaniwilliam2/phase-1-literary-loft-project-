@@ -1,0 +1,100 @@
+{
+    "books": [
+        {
+            "title": "Babel",
+            "author": "R.F. Kuang",
+            "genre": "Historical Fiction",
+            "cover": ".assets/books/babel-cover.jpg",
+            "summary": "Cover to cover, Babel's impressive integration of student rebellion, tests of language and linguistics, and clashing of colonial studies is so ambitiously written by the end you will lack words to describe but be overflowing with emotion.",
+            "id": 1
+        },
+        {
+            "title": "Archer's Voice",
+            "author": "Mia Sheridan",
+            "genre": "Contemporary Romance",
+            "cover": "assets/books/archers-voice-cover.jpg",
+            "summary": "Bree was looking for peace. Archer was an overlooked man dealing with trauma. One day, everything changed. Bree found the complete opposite and Archer was finally seen.",
+            "id": 2 
+        },
+        {
+            "title": "My Dark Vanessa",
+            "author": "Katie Elizabeth Russell",
+            "genre": "Thriller, Fiction",
+            "cover": "assets/books/my-dark-vanessa.jpeg",
+            "summary": "This book is no walk in the park. Full of little details leaving a big mark, My Dark Vanessa is a peek into the world of a young woman deceived, broken, and confused from her manipulated teenage years.",
+            "id": 3
+        },
+        {
+            "title": "The Giver",
+            "author": "Lois Lowry",
+            "genre": "Young Adult, Dystopia",
+            "cover": "assets/books/the-giver.jpg",
+            "summary": "In this futuristic utopia, true emotions of happiness or pain are forbidden. Chosen from one who has experienced all, Jonas was given the power to embrace the hidden.  ",
+            "id": 4
+        },
+        {
+            "title": "The Storied Life of A.J. Fikry",
+            "author": "Gabrielle Zevin",
+            "genre": "Realistic Fiction",
+            "cover": "assets/books/the-storied-life.jpg",
+            "summary": "A.J. Fikry. Lonely, depressed, and on the brink of poverty his anger was the only thing he'd kept hold of. That all changes in the blink of an eye. This book shows many lessons that anyone can grasp, grow from, or pass along.",
+            "id": 5
+        },
+        {
+            "title": "Verity",
+            "author": "Colleen Hoover",
+            "genre": "Dark, Mystery Thriller",
+            "cover": "assets/books/verity.jpg",
+            "summary": "Some things are not always as they seem. If you notice anything off, nine times out of ten it is. This book will leave you stuck in the middle thinking who to believe, questioning if anyone is sane. What would you do? ",
+            "id": 6
+        },
+        {
+            "title": "We Were Liars",
+            "author": "E. Lockhart",
+            "genre": "Young Adult Mystery",
+            "cover": "assets/books/we-were-liars.jpg",
+            "summary": "Everything is fine. Everything is always fine. They are Sinclair’s. Until the dishonesty begins to catch up with the mislead. The plot is indescribable, unforeseen, and suspenseful. Truly a must-read.",
+            "id": 7
+        },
+        {
+            "title": "The Cellar",
+            "author": "Natasha Preston",
+            "genre": "Realistic Horror",
+            "cover": "assets/books/the-cellar.jpeg",
+            "summary": "You think you live in a normal town, with normal people, and have a normal life. What if that isn’t the case? So much can be hidden under the ordinary routine.  Summer Robinson experiences firsthand how not normal someone can be. ",
+            "id": 8
+        },
+        {
+            "title": "Tomorrow and Tomorrow and Tomorrow",
+            "author": "Gabrielle Zevin",
+            "genre": "Coming of Age",
+            "cover": "assets/books/tomorrow.jpg",
+            "summary": "In love but never lovers, Sadie and Sam, go on quite the adventure through life expressing all the emotions that come with it through the builds of their video games. Peaks, valleys, and everything in between accurately depict growth that can only happen within the act of time. ",
+            "id": 9
+        },
+        {
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "genre": "Personal Development",
+            "cover": "assets/books/atomic-habits.jpg",
+            "summary": "No matter your cycles, routines, and customs James Clear provides excellent incite on how to create, break, and transform habits. Even the smallest of details can make a world of difference. ",
+            "id": 10
+        },
+        {
+            "title": "The Office of Historical Corrections",
+            "author": "Danielle Evans",
+            "genre": "Short Story, Historical Fiction",
+            "cover": "assets/books/historical-corrections.jpg",
+            "summary": "These short but impactful stories beautifully written by Danielle Evans generate a voice expressing the good and bad of grief, race, and American history",
+            "id": 11
+        },
+        {
+            "title": "Fourth Wing",
+            "author": "Rebecca Yarros",
+            "genre": "Fantasy",
+            "cover": "assets/books/fourth-wing.jpg",
+            "summary": "Boredom is no such thing once you dive into the world of Fourth Wing. This elite and vicious book will put you into a different universe as if you too are in a war college for dragon riders.",
+            "id": 12
+        }
+    ]
+}
