@@ -35,6 +35,7 @@ h4 {
 
 #library, 
 #add-book{
+    margin: 25px;
     margin-top: 75px;
 }
 
@@ -48,6 +49,7 @@ h4 {
 a {
     transition: all 300ms ease;
 }
+
 
 
 
@@ -145,9 +147,34 @@ p #synopsis {
 
 /* PERSONAL LIBRARY */
 
+#personal-library img{
+    height: 40vh;
+    margin: 35px;
+    border-color: black;
+    box-shadow: 15px 15px 15px black;
+}
+
+#personal-library {
+    background-image: url('https://images.lifestyleasia.com/wp-content/uploads/sites/6/2020/02/21161902/Photo-by-Alfons-Morales-on-Unsplash-1535x900.jpg')
+}
 
 
 
+#personal-library button {
+    background-color: wheat; /* Green */
+    border: 2px solid black;
+    color: brown;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px ;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+#personal-library button:hover {
+    color: maroon;
+}
 
 
 
@@ -159,6 +186,7 @@ p #synopsis {
     margin: 35px;
     border-color: black;
     box-shadow:   15px  15px 15px black;
+    cursor: pointer;
 
 }
 
@@ -168,6 +196,21 @@ p #synopsis {
 }
 
 
+#books button {
+    background-color: wheat; /* Green */
+    border: 2px solid black;
+    color: brown;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px ;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+#books button:hover {
+    color: maroon;
+}
 
 
 

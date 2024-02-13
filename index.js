@@ -1,4 +1,5 @@
 const libraryDiv = document.getElementById('books')
+const loftDiv = document.getElementById('personal-library')
 
 
 
@@ -24,6 +25,32 @@ function addedBooksToLibrary(book){
     })
     libraryDiv.appendChild(bookCoverImages)
 
+
+
+    const addToLoftButton = document.createElement('button')
+    const removeButton = document.createElement('button')
+    addToLoftButton.textContent = "ADD TO LOFT"
+    removeButton.textContent = "REMOVE FROM LOFT"
+    addToLoftButton.addEventListener('click', () => {
+        loftDiv.appendChild(bookCoverImages)
+        addToLoftButton.remove()
+        loftDiv.appendChild(removeButton)
+    })
+
+
+    removeButton.addEventListener('click', () => {
+        bookCoverImages.remove()
+        removeButton.remove()
+        libraryDiv.appendChild(bookCoverImages)
+        libraryDiv.appendChild(addToLoftButton)
+
+    })
+
+
+    libraryDiv.appendChild(addToLoftButton)
+
+
+
     bookCoverImages.addEventListener('mouseover', (e) => {
         e.target.style.width = '16%'
         e.target.style.height = '16%'
@@ -37,6 +64,9 @@ function addedBooksToLibrary(book){
     })
 
 }
+
+
+
 
 
 
@@ -101,3 +131,8 @@ newBookForm.addEventListener('submit', (event) => {
 
     })
 
+
+
+
+
+    
