@@ -1,0 +1,217 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+
+}
+
+body {
+    font-family: "Cinzel", serif;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+p {
+    color: rgb(85, 85, 85);
+    text-wrap: balance;
+}
+
+h4 {
+    color: black;
+    font-size: 3rem;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: maroon;
+    letter-spacing: 10px
+}
+
+#library, 
+#add-book{
+    margin-top: 75px;
+}
+
+
+
+
+
+
+/* NAV TRANSITION */
+
+a {
+    transition: all 300ms ease;
+}
+
+
+
+
+/* NAV */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    color: black;
+    
+}
+
+.nav-links {
+    color: rgb(85, 85, 85);
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.nav-links li {
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1rem;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb (181, 181, 181);
+}
+
+.logo {
+    font-size: 3rem;
+    margin: 4rem;
+    color: brown
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+
+
+
+/* DISPLAY */
+
+#book-display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('https://images.lifestyleasia.com/wp-content/uploads/sites/6/2020/02/21161902/Photo-by-Alfons-Morales-on-Unsplash-1535x900.jpg')
+}
+
+.display-image {
+    margin-top: 20px;
+    height: 400px;
+    box-shadow:  5px 5px  5px 5px maroon;
+}
+
+h2 {
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px black ;
+}
+
+p #synopsis {
+    margin-top: 2px;
+    margin-bottom: 30px;
+    inline-size: 900px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+#synopsis,
+#genre {
+    font-size: larger;
+}
+
+#synopsis-display,
+#genre-display {
+    color: maroon;
+}
+
+
+
+/* PERSONAL LIBRARY */
+
+
+
+
+
+
+
+
+/* LIBRARY  */
+
+#books img {
+    height: 40vh;
+    margin: 35px;
+    border-color: black;
+    box-shadow:   15px  15px 15px black;
+
+}
+
+#books {
+    transition: width 0.3s ease, height 0.3s ease;
+    background-image: url('https://images.lifestyleasia.com/wp-content/uploads/sites/6/2020/02/21161902/Photo-by-Alfons-Morales-on-Unsplash-1535x900.jpg')
+}
+
+
+
+
+
+/* FORM */
+form {
+   margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+label {
+    color: brown;
+    font-size: 1.2rem;
+}
+
+input, 
+textarea {
+    border: solid black;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    width: 100%;
+}
+
+#submit-button {
+  margin-top: 15px;
+  color: black;
+  border: 1px solid black;
+  background-color: saddlebrown;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+#submit-button:active {
+    background-color:  sienna;
+
+}
+
+#submit-button:hover {
+    color:wheat
+}
