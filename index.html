@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phase 1 Project</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <script defer src="index.js"></script>
 </head>
 
@@ -16,30 +17,46 @@
             <ul class="nav-links">
                 <li><a href="#display">Book Display</a></li>
                 <li><a href="#library">Library</a></li>
-                <li><a href="#loft">My Loft</a></li>
                 <li><a href="#add-book">Add A Book</a></li>
             </ul>
         </div>
     </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">The Library Loft</div>
+        <div id="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#display" onclick="toggleMenu()">Book Display</a></li>
+                <li><a href="#library" onclick="toggleMenu()">Library</a></li>
+                <li><a href="#add-book" onclick="toggleMenu()">Add A Book</a></li>
+            </div>
+        </div>
+    </nav>
     
 
-<section id="display">
-    <div id="book-display">
-        <img class="display-image" src="./assets /placeholder-image.png" alt="Insert Image Here">
-        <h2 class="title">Insert Title Here</h2>
-        <h3 class="author">Insert Author Here</h3>
+    <section id="display">
+         <div id="book-display">
+            <img class="display-image" src="./assets /placeholder-image.png" alt="Insert Image Here">
+            <h2 class="title">Insert Title Here</h2>
+            <h3 class="author">Insert Author Here</h3>
+       </div>
+    </section>
+
+    <div id="book-info">
+        <h3 id="genre-display">Genre:</h3>
+        <p>
+            <span id="genre">Insert Genre Here</span>
+        </p>
+        <h3 id="synopsis-display">Synopsis:</h3>
+        <p id="synopsis">
+            Insert Synopsis Here
+        </p>
     </div>
-</section>
-
-
-    <h3 id="genre-display">Genre:</h3>
-    <p>
-        <span id="genre">Insert Genre Here</span>
-    </p>
-    <h3 id="synopsis-display">Synopsis:</h3>
-    <p id="synopsis">
-        Insert Synopsis Here
-    </p>
 
 
 
@@ -49,15 +66,6 @@
             <!-- Book Cover Images Go Here -->
         </div>
     </section>
-
-
-    <section id="loft">
-        <div id="personal-library">
-            <h4>My Loft</h4>
-            <!-- Books Added from library -->
-        </div>
-    </section>
-
 
 
 
@@ -85,7 +93,6 @@
                 <ul class="nav-links">
                     <li><a href="#display">Book Display</a></li>
                     <li><a href="#library">Library</a></li>
-                    <li><a href="#loft">My Loft</a></li>
                     <li><a href="#add-book">Add A Book</a></li>
                 </ul>
             </div>

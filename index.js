@@ -3,7 +3,7 @@ const loftDiv = document.getElementById('personal-library')
 
 
 
-fetch('http://localhost:3000/books')
+fetch('http://localhost:3000/library')
 .then(res => res.json())
 .then(books => {
 
@@ -24,32 +24,6 @@ function addedBooksToLibrary(book){
         handleDisplay(book)
     })
     libraryDiv.appendChild(bookCoverImages)
-
-
-
-    const addToLoftButton = document.createElement('button')
-    const removeButton = document.createElement('button')
-    addToLoftButton.textContent = "ADD TO LOFT"
-    removeButton.textContent = "REMOVE FROM LOFT"
-    addToLoftButton.addEventListener('click', () => {
-        loftDiv.appendChild(bookCoverImages)
-        addToLoftButton.remove()
-        loftDiv.appendChild(removeButton)
-    })
-
-
-    removeButton.addEventListener('click', () => {
-        bookCoverImages.remove()
-        removeButton.remove()
-        libraryDiv.appendChild(bookCoverImages)
-        libraryDiv.appendChild(addToLoftButton)
-
-    })
-
-
-    libraryDiv.appendChild(addToLoftButton)
-
-
 
     bookCoverImages.addEventListener('mouseover', (e) => {
         e.target.style.width = '16%'
@@ -109,7 +83,7 @@ newBookForm.addEventListener('submit', (event) => {
     }
 
 
-    fetch('http://localhost:3000/books', {
+    fetch('http://localhost:3000/library', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -135,4 +109,10 @@ newBookForm.addEventListener('submit', (event) => {
 
 
 
+    function toggleMenu() {
+        const menu = document.querySelector(".menu-links")
+        const icon = document.querySelector(".hamburger-icon")
+        menu.classList.toggle("open")
+        icon.classList.toggle("open")
     
+    }

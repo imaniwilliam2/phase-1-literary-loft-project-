@@ -1,0 +1,29 @@
+@media screen and (max-width: 1400px) {
+    #display {
+        height: 75vh;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #library, #books {
+        margin-top: 2rem;
+    }
+    #display, #book-display {
+        display: block;
+    }
+    section {
+        height: fit-content;
+    }
+    section {
+        margin: 0.5%;
+    }
+
+}
