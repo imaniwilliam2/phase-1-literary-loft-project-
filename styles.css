@@ -105,6 +105,8 @@ a:hover {
 
 
 
+
+
 /* DISPLAY */
 
 #book-display {
@@ -147,6 +149,8 @@ p #synopsis {
 
 
 
+
+
 /* LIBRARY  */
 
 #books img {
@@ -162,8 +166,6 @@ p #synopsis {
     transition: width 0.3s ease, height 0.3s ease;
     background-image: url('https://images.lifestyleasia.com/wp-content/uploads/sites/6/2020/02/21161902/Photo-by-Alfons-Morales-on-Unsplash-1535x900.jpg')
 }
-
-
 
 
 
@@ -215,12 +217,6 @@ textarea {
 #submit-button:hover {
     color:wheat
 }
-
-
-
-
-
-
 
 
 

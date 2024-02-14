@@ -2,7 +2,6 @@ const libraryDiv = document.getElementById('books')
 const loftDiv = document.getElementById('personal-library')
 
 
-
 fetch('http://localhost:3000/library')
 .then(res => res.json())
 .then(books => {
@@ -14,7 +13,6 @@ fetch('http://localhost:3000/library')
     })
 
 })
-
 
 
 function addedBooksToLibrary(book){
@@ -40,10 +38,6 @@ function addedBooksToLibrary(book){
 }
 
 
-
-
-
-
 const handleDisplay = (book) => {
     const bookTitle = document.getElementsByClassName('title')[0]
     bookTitle.textContent = book.title
@@ -60,8 +54,6 @@ const handleDisplay = (book) => {
     const bookSynopsis = document.getElementById('synopsis')
     bookSynopsis.textContent = book.synopsis
 }
-
-
 
 
 const newBookForm = document.getElementById('new-book')
@@ -104,9 +96,6 @@ newBookForm.addEventListener('submit', (event) => {
      newBookForm.reset()
 
     })
-
-
-
 
 
     function toggleMenu() {
