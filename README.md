@@ -12,7 +12,7 @@ Travelling is amazing. Seeing new places, trying new things, and existing in a n
 
 </ul>
 
-## Setup
+## Setup:
 
 To access this project, Run json-server in your terminal from a directory that has a db.json file present.
 ```
