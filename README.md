@@ -5,7 +5,7 @@ Travelling is amazing. Seeing new places, trying new things, and existing in a n
 
 <ul>
 
-<li>A navigatin bar for both desktop and mobile users</li>
+<li>A navigation bar for both desktop and mobile users</li>
 <li>A Book display giving main details of ever book</li>
 <li>A library with a multitude of must reads</li>
 <li>Add your favorites or suggestions to the library through a form</li>
